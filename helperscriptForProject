@@ -1,0 +1,18 @@
+*** TO ACTIVATE THE ENVIRONMENT ***
+.\.venv\Scripts\Activate 
+
+*** TO CREATE THE REQUIREMENTS.TXT FILE ***
+pip freeze > requirements.txt
+
+*** INSTALLED PACKAGES ***
+pip install kagglehub==1.0.0
+pip install pandas==3.0.1
+pip install matplotlib==3.10.8
+pip install seaborn==0.13.2
+pip install python-dotenv==1.2.1
+pip install langchain-openapi==0.1.1
+pip install langchain-chroma==1.1.0
+pip install Transformers
+pip install gradio
+pip install jupyter==1.1.1
+pip install ipywidgets==8.1.8
